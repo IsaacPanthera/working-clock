@@ -1,0 +1,39 @@
+#container {
+    position:relative;
+    margin: auto;
+    height: 40vw;
+    width: 40%;
+    background: url("./media/clockk.jpg") no-repeat;
+    background-size: 100%;
+}
+#hour,
+#minutes,
+#seconds {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    opacity: 0.8;
+}
+
+#hour {
+    width: 1.5%;
+    height: 23%;
+    top: 25%;
+    left: 48.85%;
+}
+
+#minutes {
+    width: 1.2%;
+    height: 30%;
+    top: 18%;
+    left: 48%;
+}
+
+#seconds {
+    width: 0.3%;
+    height: 40%;
+    top: 8.5%;
+    left: 49.25%;
+
+}
